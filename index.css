@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: rgb(27, 24, 24); 
+    height: 200px;
+}
+
+.socmed{
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.socmed a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    margin-right: 30px;
+    line-height: 40px;
+}
+
+.socmed a:hover {
+    background-color: orangered;
+}
+
+.home {
+    text-align:center;
+    margin-top: 40px;
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+.home a:hover {
+    color: orangered;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+    font-size: 12px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright a:hover {
+    color: orangered;
+}
+
+
